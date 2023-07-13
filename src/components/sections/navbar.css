@@ -1,0 +1,70 @@
+.navbar_container{
+    display: flex;
+    width: 1400px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 10px 0px;
+    
+}
+.navbar_section{
+  width: 100vw;
+    /* background-color: rebeccapurple;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.links{
+display: flex;
+align-items: center;
+gap:50px;
+}
+.icons{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+}
+.lists{
+ display: flex;
+ gap:20px;
+ list-style: none;
+
+
+}
+.listItem{
+
+}
+.btn{
+width: 5rem;
+height: 2rem;
+cursor: pointer;
+background-color: #da4ea2;
+color: white;
+border: none;
+border-radius: 5px;
+}
+.logo{
+height: 6rem;
+}
+.icon1{
+width: 1rem;
+}
+.a_links{
+  text-decoration: none;
+  color:white;
+}
+@media only screen and (max-width: 768px) {
+  .navbar_container{
+   width: 100%;
+   padding: 10px;
+  }
+  .navbar_section{
+    width: 100%;
+  }
+  .lists{
+    display: none;
+  }
+}

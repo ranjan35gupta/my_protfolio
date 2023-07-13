@@ -1,0 +1,28 @@
+.who_container{
+    height: 100vh;
+    /* background-color: brown; */
+    scroll-snap-align: center;
+}
+.who_left{
+    flex:2;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+gap:20px;
+}
+.who_right{
+    flex: 3;
+ position: relative;
+}
+@media screen and (max-width:768px) {
+    .who_left{
+        /* display: none; */
+        flex: 1;
+        align-items: center; 
+        text-align: center; 
+    }
+    .who_right{
+        display:none;
+    }
+}
